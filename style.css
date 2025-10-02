@@ -1,0 +1,290 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      font-family: Arial, sans-serif;
+  }
+
+  nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+
+  nav ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      padding: 10px;
+      gap: 30px;
+      margin-left: 40vh;
+  }
+
+  nav ul li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+  }
+
+
+
+  .button-container {
+      display: flex;
+  }
+
+  .btn {
+      padding: 10px 30px;
+      font-size: 16px;
+      font-weight: 600;
+      border: 2px solid #a57a5a;
+      border-radius: 4px;
+  }
+
+
+  .order-btn {
+      background-color: #a57a5a;
+      color: #fff;
+
+  }
+
+  .order-btn:hover {
+      background-color: #8b6548;
+  }
+
+
+  .signin-btn {
+      background-color: transparent;
+      color: #a57a5a;
+
+  }
+
+  .signin-btn:hover {
+      background-color: #a57a5a;
+      color: #fff;
+  }
+
+
+
+  .news-section {
+      width: 100%;
+      padding: 60px 20px;
+      text-align: center;
+      background-color: seashell
+  }
+
+
+
+  .container {
+      max-width: 1100px;
+      margin: 0 auto;
+
+  }
+
+  h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+  }
+
+  .subtitle {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 50px;
+  }
+
+  .news-card {
+      background: transparent;
+      text-align: left;
+  }
+
+  .news-image {
+      width: 160vh;
+      height: 500px;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+  }
+
+  .news-content h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #000;
+      line-height: 1.4;
+  }
+
+  .meta {
+      font-size: 0.9rem;
+      color: #666;
+  }
+
+  .item {
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
+      margin-bottom: 30px;
+      margin-left: 80px;
+  }
+
+  .content {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+  }
+
+  .news-img {
+      width: 140px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 4px;
+
+  }
+
+  .text h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      line-height: 1.4;
+      color: #222;
+      margin-bottom: 8px;
+  }
+
+  .meta1 {
+      font-size: 0.95rem;
+      color: #777;
+  }
+
+
+  .learn-more-btn {
+      padding: 10px 20px;
+      border: 2px solid #c2a988;
+      background-color: transparent;
+      color: #c2a988;
+      font-size: 16px;
+      border-radius: 5px;
+      margin-top: 10px;
+      margin-left: 100vh;
+
+  }
+
+  .learn-more-btn:hover {
+      background-color: #c2a988;
+      color: white;
+  }
+
+  .footer {
+      background-color: #111;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      margin-top: 30px;
+  }
+
+  .footer-top h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+  }
+
+  .footer-top p {
+      margin: 5px 0;
+      font-size: 15px;
+      color: #ccc;
+  }
+
+  .footer-top p strong {
+      color: white;
+  }
+
+  hr {
+      border: 0.5px solid #333;
+      margin: 25px auto;
+      width: 90%;
+  }
+
+
+  .footer-middle {
+      display: flex;
+      justify-content: start;
+      align-items: start;
+      margin-bottom: 20px;
+      margin-left: 30px;
+  }
+
+
+  .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+
+
+  }
+
+  .social-icons a {
+      text-decoration: none;
+      padding: 10px;
+
+      margin: 10px;
+
+  }
+
+  .social-icons a:hover {
+
+      border-radius: 50%;
+      transition: 0.3s;
+  }
+
+  .social-icons i {
+      color: white;
+      font-size: 20px;
+  }
+
+  .delivery {
+      display: flex;
+      justify-content: end;
+      align-items: end;
+      margin-left: 80vh;
+  }
+
+  .delivery span {
+      display: block;
+      color: white;
+      margin-bottom: 10px;
+  }
+
+  .delivery img {
+      height: 35px;
+      margin: 0 5px;
+  }
+
+  .footer-bottom {
+      font-size: 14px;
+      color: #b38a5e;
+  }
+
+  .footer-bottom .links a {
+      color: #b38a5e;
+      margin: 0 5px;
+      text-decoration: none;
+  }
+
+  .footer-bottom .links a:hover {
+      text-decoration: underline;
+  }
+
+  .copyright {
+      display: flex;
+      align-items: start;
+      justify-content: start;
+      margin-left: 40px;
+  }
+
+  .links {
+      display: flex;
+      align-items: end;
+      justify-content: end;
+  }
